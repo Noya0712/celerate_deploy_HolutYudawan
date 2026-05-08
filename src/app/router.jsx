@@ -9,7 +9,7 @@ import HalamanTidakDitemukan from "../pages/HalamanTidakDitemukan";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, // App berfungsi sebagai Layout (Navbar + Outlet + State Provider)
+    element: <App />,
     children: [
       { path: "/", element: <HalamanBeranda /> },
       { path: "/resep", element: <HalamanDaftarResep /> },
