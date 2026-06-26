@@ -10,15 +10,173 @@ const dataResepAwal = [
     kategori: "Makanan Berat",
     waktuMasak: "20 menit",
     porsi: 2,
-    bahan: ["2 piring nasi putih", "2 butir telur", "3 siung bawang merah", "2 siung bawang putih", "kecap manis", "garam", "minyak goreng"],
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
     langkah: [
       "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
       "Masukkan telur, orak-arik hingga setengah matang.",
       "Masukkan nasi, aduk rata bersama telur.",
       "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
-      "Sajikan selagi panas."
+      "Sajikan selagi panas.",
     ],
-    emoji: "🍳"
+    emoji: "🍳",
+  },
+
+  {
+    id: "resep-1",
+    nama: "Ikan Bakar Madu",
+    kategori: "Makanan Berat",
+    waktuMasak: "20 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🥩",
+  },
+
+  {
+    id: "resep-1",
+    nama: "seblak kuah pedas",
+    kategori: "Makanan Berat",
+    waktuMasak: "15 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🍱",
+  },
+
+  {
+    id: "resep-1",
+    nama: "gule ayam",
+    kategori: "Makanan Berat",
+    waktuMasak: "25 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🍳",
+  },
+
+  {
+    id: "resep-1",
+    nama: "Nasi Padang",
+    kategori: "Makanan Berat",
+    waktuMasak: "15 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🥙",
+  },
+
+  {
+    id: "resep-1",
+    nama: "Nasi Kuah Spesial",
+    kategori: "Makanan Berat",
+    waktuMasak: "20 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🦪",
+  },
+
+  {
+    id: "resep-1",
+    nama: "Teh Tarik Spesial",
+    kategori: "Minuman Diging",
+    waktuMasak: "10 menit",
+    porsi: 2,
+    bahan: [
+      "2 piring nasi putih",
+      "2 butir telur",
+      "3 siung bawang merah",
+      "2 siung bawang putih",
+      "kecap manis",
+      "garam",
+      "minyak goreng",
+    ],
+    langkah: [
+      "Panaskan minyak, tumis bawang merah dan bawang putih hingga harum.",
+      "Masukkan telur, orak-arik hingga setengah matang.",
+      "Masukkan nasi, aduk rata bersama telur.",
+      "Tambahkan kecap manis dan garam, aduk hingga tercampur merata.",
+      "Sajikan selagi panas.",
+    ],
+    emoji: "🍵",
   },
 ];
 
@@ -27,11 +185,11 @@ export function ResepProvider({ children }) {
 
   function tambahResep(resepBaru) {
     const idBaru = "resep-" + Date.now();
-    setDaftarResep(prev => [...prev, { ...resepBaru, id: idBaru }]);
+    setDaftarResep((prev) => [...prev, { ...resepBaru, id: idBaru }]);
   }
 
   function hapusResep(id) {
-    setDaftarResep(prev => prev.filter(r => r.id !== id));
+    setDaftarResep((prev) => prev.filter((r) => r.id !== id));
   }
 
   return (
@@ -54,9 +212,15 @@ function Navbar() {
           🍴 Dapur Holut Yudawan
         </Link>
         <div className="flex gap-4 text-sm font-medium">
-          <Link to="/" className="hover:text-orange-200 transition">Beranda</Link>
-          <Link to="/resep" className="hover:text-orange-200 transition">Resep</Link>
-          <Link to="/tentang" className="hover:text-orange-200 transition">Tentang</Link>
+          <Link to="/" className="hover:text-orange-200 transition">
+            Beranda
+          </Link>
+          <Link to="/resep" className="hover:text-orange-200 transition">
+            Resep
+          </Link>
+          <Link to="/tentang" className="hover:text-orange-200 transition">
+            Tentang
+          </Link>
         </div>
       </div>
     </nav>
