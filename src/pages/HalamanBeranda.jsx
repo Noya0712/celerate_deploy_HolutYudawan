@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { gunakanResep } from "../App";
 import { formatRupiah } from "../utils/pembayaran";
 import ModalPembayaran from "../components/ModalPembayaran";
+import InspekturKulkas from "../components/InspekturKulkas";
 
 // ============================================================
 // KOMPONEN MODAL DAFTAR RESEP PREMIUM
@@ -285,6 +286,9 @@ export default function HalamanBeranda() {
           </Link>
         ))}
       </div>
+
+      {/* ===== INSPEKTUR KULKAS — AI Rekomendasi Resep ===== */}
+      <InspekturKulkas semuaResep={daftarResep} />
 
       {/* ===== MODAL DAFTAR RESEP PREMIUM ===== */}
       {tampilModalPremium && !resepPremiumDipilih && (

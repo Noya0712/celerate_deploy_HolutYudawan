@@ -316,7 +316,7 @@ export default function ModalPembayaran({ resep, onBerhasil, onTutup }) {
               onClick={handleSelesai}
               className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3.5 rounded-xl transition shadow-md hover:shadow-lg"
             >
-              🎉 Lihat Resep Sekarang
+              Lihat Resep Sekarang
             </button>
           </div>
         )}
